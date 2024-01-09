@@ -1,7 +1,10 @@
 # geobin - working with bitmap indexed spatial data in go
 geobin is a golang package that provide a simple way to work with spatial data sets (like geojson) using bitmap indexes.
-The package works with uber/h3geo (https://h3geo.org) to provide aggregation, intersection, contains and joining operations with geometry (spatial data).
+
+The package works with uber/h3geo (https://h3geo.org) to provide aggregation, intersection, contains and joining operations with geometry (spatial attributes).
+
 As a Geometry data structure the package uses github.com/paulmach/orb.
+
 For the bitmap index, the package uses github.com/roaring/roaring.
 
 
@@ -14,4 +17,4 @@ For the bitmap index, the package uses github.com/roaring/roaring.
 
 
 # fixtures
-For testing, the package uses Open Street Map data (https://openstreetmap.org)
+For testing, the package uses OpenStreetMap data (https://openstreetmap.org)
